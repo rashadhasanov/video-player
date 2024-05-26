@@ -112,7 +112,6 @@ playerContainer.addEventListener("click", (event) => {
 
 function videoSizeChanging() {
   playerContainer.classList.toggle("video-container");
-  videoElement.classList.toggle("fullScreen");
 }
 
 videoSize.addEventListener("click", videoSizeChanging);
